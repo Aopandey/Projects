@@ -1,0 +1,7 @@
+Goal- The goal of this program is to create a program which uses bubble sort algorithm in C with the help of pointers. In this program we have to take the values provide to us in the main function in the array and arrange them in ascending order. 
+
+Input- This program uses 3 functions in it void printvalus, void sort, and void swap. Void printvalues takes the values from array values[], void sort uses 2 nested for loops and a if statment to go through each value in the array and then swap if it is less than the previous one, the void swap will just use the old array as a input for its algorithm.
+
+Output- After the program runs sucessfully it takes all the values from main and uses the void sort and void swap to arrange it in ascending order and finally uses void printvalues to actually print the new ascending sorted array values in [].
+
+Steps- In this program we first used void printvalues which had a for loop which took values that need to be sorted from the array values[] in the main function. In the next part in void sort it uses 2 nested for loops and a if statement which actually goes through the entire values and swaps it if it is less than the values so that it is arranged in the ascending order. And finally in void swap it uses two pointers, one pointer points to old values which is equal to the temporary int values which is then equal to the other pointer which points to the new value and finally it points to the int temporary values.  
